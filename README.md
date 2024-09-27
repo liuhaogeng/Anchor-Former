@@ -13,7 +13,7 @@ Pass the selected anchors to the cross attention module. line 142
 * [LLaVA](https://github.com/haotian-liu/LLaVA)
 # Citation
 
-<!-- ```latex
+```latex
 @misc{liu2024visualanchorsstronginformation,
       title={Visual Anchors Are Strong Information Aggregators For Multimodal Large Language Model}, 
       author={Haogeng Liu and Quanzeng You and Xiaotian Han and Yongfei Liu and Huaibo Huang and Ran He and Hongxia Yang},
@@ -23,4 +23,4 @@ Pass the selected anchors to the cross attention module. line 142
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2405.17815}, 
 }
-``` -->
+```
