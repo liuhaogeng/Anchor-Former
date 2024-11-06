@@ -14,13 +14,10 @@ Pass the selected anchors to the cross attention module. line 142
 # Citation
 
 ```latex
-@misc{liu2024visualanchorsstronginformation,
-      title={Visual Anchors Are Strong Information Aggregators For Multimodal Large Language Model}, 
-      author={Haogeng Liu and Quanzeng You and Xiaotian Han and Yongfei Liu and Huaibo Huang and Ran He and Hongxia Yang},
-      year={2024},
-      eprint={2405.17815},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2405.17815}, 
+@article{liu2024visual,
+  title={Visual Anchors Are Strong Information Aggregators For Multimodal Large Language Model},
+  author={Liu, Haogeng and You, Quanzeng and Han, Xiaotian and Liu, Yongfei and Huang, Huaibo and He, Ran and Yang, Hongxia},
+  journal={arXiv preprint arXiv:2405.17815},
+  year={2024}
 }
 ```
