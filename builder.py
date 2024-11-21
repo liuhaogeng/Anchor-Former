@@ -242,12 +242,8 @@ class PerceiverResampler(nn.Module):
         latents = self.dynamic_query
         # return latents
         for attn, ff in self.layers:
-            if self.gradient_checkpointing and latents.requires_grad:
-                latents = checkpoint(attn, x, (latents)) + latents
-                latents = checkpoint(ff, latents) + latents
-            else:
-                latents = attn(x, latents) + latents
-                latents = ff(latents) + latents
+            latents = attn(x, latents) + latents
+            latents = ff(latents) + latents
 
         return self.norm(latents)
 
